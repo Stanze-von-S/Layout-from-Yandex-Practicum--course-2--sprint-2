@@ -1,0 +1,10 @@
+.header__lang{
+width: calc(50% - 5px);
+margin-left: 10px;
+font-style: normal;
+color: #FFFFFF;
+text-decoration: none;
+}
+.header_theme_active{
+    text-decoration: underline;
+}

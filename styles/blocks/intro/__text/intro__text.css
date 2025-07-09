@@ -1,0 +1,21 @@
+@import url(./__text-author/intro__text-author.css);
+@import url(./__text-title/intro__text-title.css);
+@import url(./__text-title-bold/intro__text-title-bold.css);
+.intro__text{
+    width: calc(100% - 1px);
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: normal;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px;
+    color: #FFFFFF;
+}
+@media screen and (max-width: 375px){
+    .intro__text{
+        font-size: 16px;
+        line-height: 27px;  
+    }
+}
+

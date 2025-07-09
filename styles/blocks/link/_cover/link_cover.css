@@ -1,0 +1,7 @@
+.link_cover{
+    position: relative;
+    text-decoration: none;
+}
+.link_cover:hover .cover_bg{
+    opacity: 0.7;
+}

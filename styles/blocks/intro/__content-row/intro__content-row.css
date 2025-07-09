@@ -1,0 +1,30 @@
+@import url(../__text/intro__text.css);
+.intro__content-row{   
+    width: 70%; 
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin: 35px 0px 0px;
+}
+@media screen and (min-width: 1280px){
+    .intro__content-row{
+        width: 683px;
+    }
+}
+@media screen and (min-width: 1024px){
+    .intro__content-row{
+        width: 692px;
+    }
+}
+@media screen and (max-width: 850px){
+    .intro__content-row{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .intro__content-row{
+        width: 100%;
+        margin-top: 25px;
+    }
+}

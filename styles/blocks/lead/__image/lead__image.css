@@ -1,0 +1,8 @@
+@import url(../__image-map/lead__image-map.css);
+.lead__image{
+    display: block;
+    margin-top: 30px;  
+    background-image: 
+    url(../../../../images/blocks/lead/kalegin-michail-179870-unsplash.jpg);
+    background-size: cover;       
+}

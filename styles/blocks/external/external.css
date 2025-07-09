@@ -1,0 +1,12 @@
+.external{
+    display: flex;
+    flex-direction: column;
+    width: 100wv;
+    align-items: center;
+    background: #2A2C2F;
+}
+@media screen and (max-width: 1000px){
+    .external{
+        width: 100wv;
+    }
+}

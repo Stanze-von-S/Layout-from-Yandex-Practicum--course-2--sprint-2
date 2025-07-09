@@ -1,0 +1,32 @@
+@import url(./_theme/video__item_theme_kamchatka.css);
+@import url(./_theme/video__item_theme_observatoria.css);
+.video__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    width: calc(50% - 18px);
+    z-index: 0;
+    background-size: cover;
+    border-radius: 5px;   
+}
+.video__item:hover .video__item-layer{
+    opacity: 0.2;
+}
+@media screen and (max-width: 768px){
+    .video__item{
+        width: calc(50% - 16px);
+    }
+}
+@media screen and (max-width: 520px){
+    .video__item{
+        width: calc(100% - 12px);
+        margin-bottom: 8px;
+    }
+}
+@media screen and (max-width: 375px){
+    .video__item{
+        width: calc(100% - 14px);
+        margin-bottom: 8px;
+    }
+}

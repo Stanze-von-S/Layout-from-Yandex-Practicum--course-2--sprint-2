@@ -1,0 +1,10 @@
+.intro__description-paragraph{
+    width: 100%;
+    margin: 5px 0px 0px;
+    font-weight: normal;
+}
+@media screen and (max-width: 375px){
+    .intro__description-paragraph{
+        margin-top: 0px;
+    }
+}

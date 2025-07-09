@@ -1,0 +1,8 @@
+.place__website-link{
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    margin: 6px 0px 0px;    
+}
